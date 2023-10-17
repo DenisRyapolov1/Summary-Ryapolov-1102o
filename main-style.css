@@ -1,0 +1,243 @@
+@font-face {
+    font-family: Roboto Mono;
+    src: url(/fonts/Roboto_Mono.zip);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/fonts/roboto\ \(1\).zip);
+}
+
+@font-face {
+    font-family: 'San Francisco Mono';
+    src: url(/fonts/San\ Francisco\ Mono.zip);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat\ \(1\).zip);
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background: linear-gradient(to right, rgb(255, 184, 234), rgb(177, 255, 210));
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+header {
+    font-family: Roboto, sans-serif;
+    font-size: 0.8em;
+
+}
+
+.verkh {
+    font-family: Montserrat, sans-serif;
+    text-align: left;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+.sec {
+    columns: 3;
+    height: 1180px;
+    width: 1640px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.block {
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    background: linear-gradient(rgb(104, 104, 172), rgb(201, 115, 115), rgb(116, 180, 116));
+    border-radius: 24px;
+    height: 580px;
+    width: 530px;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 auto;
+    display: block;
+}
+
+a:hover {
+    color: green;
+}
+
+.block:hover {
+    box-shadow: 8px 10px 5px 2px rgba(0, 0, 255, .2);
+}
+
+.yes {
+    width: 116px;
+    height: 116px;
+}
+
+.foot {
+    text-align: right;
+    font-size: 0.7em;
+}
+
+.sylka {
+    text-align: center;
+}
+
+.second {
+    display: flex;
+    text-align: center;
+}
+
+.third {
+    font-family: Roboto, sans-serif;
+    color: black;
+    line-height: 1.7;
+}
+
+dt {
+    font-weight: normal;
+    font-size: 1,5em;
+}
+
+footer {
+    margin: 0 0 16px 0;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  /* 3 */
+  .btn-3 {
+    background: rgb(255, 164, 247);
+    background: linear-gradient(0deg, rgb(251, 141, 255) 0%, rgb(255, 175, 251) 100%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    
+  }
+  .btn-3 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-3:before,
+  .btn-3:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: rgb(129, 255, 177);
+    transition: all 0.3s ease;
+  }
+  .btn-3:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-3:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+  .btn-3:hover:before {
+    height: 100%;
+  }
+  .btn-3:hover:after {
+    width: 100%;
+  }
+  .btn-3 span:hover{
+     color: rgb(100, 255, 190);
+  }
+  .btn-3 span:before,
+  .btn-3 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+     background: rgb(95, 255, 181);
+    transition: all 0.3s ease;
+  }
+  .btn-3 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-3 span:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3 span:hover:before {
+    height: 100%;
+  }
+  .btn-3 span:hover:after {
+    width: 100%;
+  }
+
+  .bodyk {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 1em;
+    
+  }
+
+  .hhh {
+    color: rgb(0, 201, 100);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(177, 255, 210), rgb(255, 184, 234));
+  }
+
+  .cod {
+    background-color: #6d757d;
+    padding: 16px;
+    margin: 0 0 16px 0;
+    font-family: SFMono, sans-serif;
+    font-size: 0.85em;
+  }
+  
+  .arg {
+    color: #009999;
+  }
+
+  li {
+    margin:     0 0 16px 0;;
+  }
